@@ -1,0 +1,167 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap');
+* {
+  margin: 0px;
+  padding: 0px;
+  outline: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  list-style-type: none;
+  font-family: 'Poppins', sans-serif;
+  color: rgb(53,48,98);
+}
+body{
+  transition: 1s;
+}
+.navbar {
+  position: sticky;
+  top: 0px;
+  /* background-color: rgb(192, 73, 73); */
+  backdrop-filter: blur(6px);
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  z-index: 5;
+  padding-top: 15px;
+  /* above 3 line of code is for text not getting selected */
+}
+.full {
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.right {
+  display: flex;
+  align-items: center;
+}
+.left {
+  position: relative;
+  left: 25px;
+}
+.item {
+  margin: 0px 50px 0px 0px;
+  font-size: 15px;
+}
+/* .left a {
+  color: black;
+} */
+.item a {
+  color: black;
+}
+.items a {
+  color: black;
+}
+.items {
+  margin: 0px 25px;
+  padding: 0px 0px 20px;
+  font-size: 15px;
+}
+.rights {
+  margin-top: 30px;
+}
+.btn1 {
+  cursor: pointer;
+  color: #000000;
+}
+.dark-mode {
+  margin-right: 50px;
+}
+.font-bold {
+  font-weight: 700;
+}
+.vikash {
+  font-size: 28px;
+}
+
+.intro {
+  display: flex;
+  flex-direction: column;
+  margin: 100px 0px 120px 50px;
+}
+.intro-item {
+  margin-bottom: 8px;
+}
+.intro-one {
+  font-size: 24px;
+}
+.intro-two {
+  font-size: 60px;
+}
+.intro-three {
+  font-size: 20px;
+  width: 60vw;
+}
+.intro-btn button {
+  margin-top: 10px;
+  border-color: transparent;
+  font-size: 20px;
+  color: white;
+  padding: 15px 32px;
+  background-color: rgb(24, 134, 174);
+}
+.skill{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.skill-head{
+  font-size: 48px;
+}
+.skill-item{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 40px;
+  width: 80vw;
+}
+.skill-img{
+  height: 50px;
+  width: 50px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+.skill-item-tech{
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 18px;
+  padding: 20px;
+  margin: 10px;
+  background-color: rgb(234, 240, 238);
+  border-radius: 5px;
+}
+@media screen and (max-width: 800px) {
+  .item {
+    display: none;
+  }
+  .small {
+    display: none;
+  }
+  .right {
+    margin-right: 25px;
+  }
+}
+@media screen and (min-width: 800px) {
+  .btn1 {
+    display: none;
+  }
+  .items {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 740px) {
+  .intro-two {
+    font-size: 36px;
+  }
+  .intro{
+    margin-top: 60px;
+    margin-left: 30px;
+  }
+  .intro-three{
+    width: 70vw;
+  }
+}
