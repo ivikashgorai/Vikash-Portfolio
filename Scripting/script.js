@@ -1,6 +1,8 @@
 const button = document.querySelector(".btn1");
 const darkmode = document.querySelector(".dark-mode");
 const color = document.querySelectorAll(".col");
+const projectOneView = document.querySelector('.one-view');
+const projectOneCode = document.querySelector('.one-code');
 
 //NavBar
 let a = 1;
@@ -40,4 +42,4 @@ darkmode.addEventListener("click", () => {
     dark = 1;
   }
 });
-//DarkMode Ends
+
