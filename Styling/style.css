@@ -170,7 +170,7 @@ button{
   cursor: pointer;
 }
 .project-img{
-  width:320px;
+  width:310px;
   margin-bottom:10px ;
   transition: 1s;
   border: 2px solid transparent;
@@ -194,7 +194,7 @@ button{
   min-height:500px;
 }
 .project-desc{
-  max-width: 320px;
+  max-width: 310px;
   padding: 14px 0px;
   margin-bottom: 20px;
   font-size: 16px;
