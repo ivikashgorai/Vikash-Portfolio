@@ -36,10 +36,10 @@ darkmode.addEventListener("click", () => {
       color[i].style.color = "grey";
     }
     for (let j = 0; j < techbg.length; j++) {
-      techbg[j].style.backgroundColor = "#301E67";
+      techbg[j].style.backgroundColor = " rgb(4, 28, 81)";
     }
     for (let j = 0; j < contactbg.length; j++) {
-      contactbg[j].style.backgroundColor = "#301E67";
+      contactbg[j].style.backgroundColor = " rgb(4, 28, 81)";
     }
     for (let j = 0; j < projectWork.length; j++) {
       projectWork[j].style.borderColor = "#301E67";

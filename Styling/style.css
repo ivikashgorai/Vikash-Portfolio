@@ -300,6 +300,70 @@ button{
 .contact{
   margin-bottom: 40px;
 }
+form{
+  background-color: rgb(4, 28, 81);
+  /* z-index: -1;
+  position: relative;
+  bottom: 70px; */
+ margin-bottom: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+  padding-bottom: 10px;
+}
+form h2{
+  color: white;
+}
+.label-text{
+  color: white;
+}
+.form1{
+  width: 300px;
+}
+.form2{
+  height:480px;
+  width: 500px;
+}
+.contact-input{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.label-text{
+  align-self: start;
+}
+.input{
+  padding: 10px;
+  margin-bottom: 30px;
+  border-color: transparent;
+  color: black;
+}
+form h2{
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.submit-btn{
+  color:white;
+  margin-bottom: 30px;
+  padding: 10px 20px;
+  background-color: rgb(66, 89, 180);
+  border-radius: 5px;
+}
+.message{
+display: flex;
+justify-content: center;
+}
+@media screen and (max-width: 750px) {
+  .form2{
+      display: none;
+  }
+}
+@media screen and (min-width: 750px) {
+  .form1{
+      display: none;
+  }
+}
 @media screen and (max-width: 800px) {
   .item {
     display: none;
