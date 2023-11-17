@@ -256,6 +256,9 @@ button{
 .js{
  color: rgb(190, 166, 8);
 }
+.formspree{
+  color: rgb(205,12,37);
+}
 .contact{
   margin-top: 150px;
   display: flex;
