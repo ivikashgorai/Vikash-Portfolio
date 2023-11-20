@@ -11,6 +11,9 @@
   font-family: 'Inter', sans-serif;
   color: rgb(53,48,98);
 }
+html{
+  scroll-behavior: smooth;
+}
 body{
   transition: 1s;
 }

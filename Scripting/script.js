@@ -8,6 +8,7 @@ const contactbg = document.querySelectorAll('.contact-link');
 const projectWork  = document.querySelectorAll('.project-work');
 const tech  = document.querySelectorAll('.tech');
 //NavBar
+
 let a = 1;
 button.addEventListener("click", () => {
   if (a == 1) {
